@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bn_food"
+            android:layout_width="150dp"
+            android:layout_height="210dp"
+            android:width="150dp"
+            android:background="#EF9A9A"
+            android:contentDescription="@string/tv_food"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:backgroundTint="@null"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:textAlignment="center"
+            tools:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@string/todo"
+            android:elevation="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/tv_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="173dp"
+            android:layout_marginEnd="15dp"
+            android:elevation="10dp"
+            android:text="@string/tv_food"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="TextContrastCheck"
+            tools:textAlignment="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bn_pressure"
+            android:layout_width="150dp"
+            android:layout_height="209dp"
+            android:layout_marginTop="0dp"
+            android:background="#A5D6A7"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:contentDescription="@string/todo"
+            android:elevation="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/tv_food2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="173dp"
+            android:elevation="20dp"
+            android:text="@string/tv_pressure"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="TextContrastCheck"
+            tools:layout_marginEnd="15dp"
+            tools:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <Button
+            android:id="@+id/bn_BMI"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginStart="0dp"
+            android:background="#90CAF9"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            tools:ignore="ExtraText,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@string/todo"
+            android:elevation="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img_1"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_food5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="173dp"
+            android:layout_marginEnd="30dp"
+            android:elevation="5dp"
+            android:text="@string/tv_BMI"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="TextContrastCheck"
+            tools:textAlignment="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <Button
+            android:id="@+id/bn_BMR"
+            android:layout_width="150dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="0dp"
+            android:background="#FFF59D"
+            android:textColor="#050505"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="@string/todo"
+            android:elevation="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img_3"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_food6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="173dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="10dp"
+            android:text="@string/tv_BMR"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="TextContrastCheck"
+            tools:textAlignment="center" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

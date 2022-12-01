@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">健康評量從你我做起</string>
+    <string name="tv_food">飲食行為測量表</string>
+    <string name="tv_pressure">壓力指數測量表</string>
+    <string name="tv_BMI">BMI計算</string>
+    <string name="tv_BMR">基礎代謝計算</string>
+    <string name="todo">TODO</string>
+    <string name="illustrate">說明： \n此量測表參考《衛生署戰勝肥胖：減重指導手冊》，請您根據最近一週的飲食狀態，選擇適當答案。 \n總是：十次中有八次以上是如此 \n常常：十次中有六至八次 \n偶爾：十次中有三至五次 \n很少：十次中有一至二次或全非如此</string>
+    <string name="illustrate_bmi">說明：
+世界衛生組織建議以身體質量指數（Body Mass Index, BMI）來衡量肥胖程度，其計算公式是以體重（公斤）除以身高（公尺）的平方。 國民健康署建議我國成人BMI應維持在18.5（kg/㎡）及24（kg/㎡）之間，太瘦、過重或太胖皆有礙健康。 研究顯示，體重過重或是肥胖（BMI≧24）為糖尿病、心血管疾病、惡性腫瘤等慢性疾病的主要風險因素；而過瘦的健康問題，則會有營養不良、骨質疏鬆、猝死等健康問題。</string>
+    <string name="few">很少</string>
+    <string name="sometimes">偶爾</string>
+    <string name="often">常常</string>
+    <string name="always">總是</string>
+    <string name="name">姓別</string>
+    <string name="height">身高</string>
+    <string name="weight">體重</string>
+    <string name="submit">送 出</string>
+    <string name="fir">1.我定時吃三餐。</string>
+    <string name="sec">2.我不吃甜食或零食。</string>
+    <string name="thi">3.我吃東西時細嚼慢嚥，每口食物至少嚼二十次才吞下。</string>
+    <string name="four">4.口渴或很熱時，我不喝汽水、可樂、運動飲料、加糖的茶或咖啡飲料而會喝白開水。</string>
+    <string name="five">5.我避免吃油炸或含油高的食物（如腰果、花生、瓜子、洋芋片）。</string>
+    <string name="six">6.我每天吃水果。</string>
+    <string name="seven">7.我每天吃綠色蔬菜。</string>
+    <string name="eight">8.我會吃宵夜。</string>
+    <string name="nine">9.我在看電視或看書刊雜誌時吃東西。</string>
+    <string name="ten">10.我心情不好時，會吃東西來紓解。</string>
+    <string name="elev">11.我用吃來獎勵自己或慶祝。</string>
+    <string name="twe">12.我在很餓時，才去買東西。</string>
+    <string name="count"><u>計數方式有：</u> <small>題號1～7，答『總是』得3分、『常常』得2分、『偶爾』得1分、『很少』得0分。\n題號8～12，答『總是』得0分、『常常』得1分、『偶爾』得2分、『很少』得3分。\n</small><u>飲食行為記分說明：</u> <small>0-12分，慘了！慘了！您的飲食行為非常糟糕，建議下定決心來減重。\n13-20分，雖然您比0-12分好一點，也別『龜笑鱉無尾』，請努力改變自己的飲食習慣。\n21-30分，加油！加油！飲食習慣再繼續改善小缺失，就更棒了。\n31-36分，您真棒！請持之以恆，就可以輕鬆獲得健康唷！</small></string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+</resources>
