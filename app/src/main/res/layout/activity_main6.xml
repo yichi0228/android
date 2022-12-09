@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="367sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginBottom="15sp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#829143"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_caption"
+            android:layout_width="367sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginBottom="20sp"
+            android:background="#F5F7EC"
+            android:padding="10sp"
+            android:text="@string/caption"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_background"
+                android:layout_width="367sp"
+                android:layout_height="229dp"
+                android:layout_marginStart="20sp"
+                android:background="#F2F2F2"
+                android:padding="10sp" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/gender"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbtn_male"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_marginStart="120sp"
+                android:layout_marginTop="14sp"
+                android:text="@string/male"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <RadioButton
+                android:id="@+id/rbtn_female"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_marginStart="195sp"
+                android:layout_marginTop="14sp"
+                android:text="@string/female"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="60sp"
+                android:text="@string/age"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_age"
+                android:layout_width="233dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="105sp"
+                android:layout_marginTop="45sp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="@string/ed_age"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/height"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_height"
+                android:layout_width="233sp"
+                android:layout_height="48dp"
+                android:layout_marginStart="105sp"
+                android:layout_marginTop="85sp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="                 請 輸 入 身 高 (cm)"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="140sp"
+                android:text="@string/weight"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_weight"
+                android:layout_width="233sp"
+                android:layout_height="48dp"
+                android:layout_marginStart="105sp"
+                android:layout_marginTop="125sp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="                  請 輸 入 體 重 (kg)"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="350sp"
+                android:layout_height="36sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="180sp"
+                android:background="#829140"
+                android:backgroundTint="@null"
+                android:text="@string/submit"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

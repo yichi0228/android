@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="25sp"
+        android:text="@string/result_BMR"
+        android:textColor="#829143"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_resultGender"
+        android:layout_width="97sp"
+        android:layout_height="32sp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/resultGender"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
+
+    <TextView
+        android:id="@+id/tv_resultAge"
+        android:layout_width="97sp"
+        android:layout_height="32sp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/resultAge"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resultGender" />
+
+    <TextView
+        android:id="@+id/tv_resultHeight"
+        android:layout_width="97sp"
+        android:layout_height="32sp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/resultHeight"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resultAge" />
+
+    <TextView
+        android:id="@+id/tv_resultWeight"
+        android:layout_width="97sp"
+        android:layout_height="32sp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/resultWeight"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resultHeight" />
+
+    <TextView
+        android:id="@+id/tv_BMR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/BMR"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resultWeight" />
+
+    <TextView
+        android:id="@+id/tv_formula"
+        android:layout_width="342sp"
+        android:layout_height="87dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="39dp"
+        android:background="#F2F2F2"
+        android:padding="10sp"
+        android:text="@string/formula"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_BMR" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

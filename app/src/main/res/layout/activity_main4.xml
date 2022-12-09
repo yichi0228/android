@@ -21,27 +21,27 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/tv_title"
+                android:id="@+id/tv_title_pre"
                 android:layout_width="367sp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20sp"
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="10sp"
-                android:text="@string/title"
+                android:text="@string/title_pre"
                 android:textAlignment="center"
                 android:textColor="#829143"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_caption"
+                android:id="@+id/tv_caption_pre"
                 android:layout_width="367sp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20sp"
                 android:layout_marginBottom="20sp"
                 android:background="#F5F7EC"
                 android:padding="10sp"
-                android:text="@string/caption"
+                android:text="@string/caption_pre"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

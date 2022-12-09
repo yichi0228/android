@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">健康評量從你我做起</string>
-    <string name="title">壓力指數測量表</string>
-    <string name="caption">說明：預防勝於治療，職場心理健康促進計劃的第一步就是了解現況。因此，可利用本表進行壓力評估，評估每位員工的壓力狀況，作為擬訂壓力管理計畫之參考依據。</string>
+    <string name="title_pre">壓力指數測量表</string>
+    <string name="caption_pre">說明：預防勝於治療，職場心理健康促進計劃的第一步就是了解現況。因此，可利用本表進行壓力評估，評估每位員工的壓力狀況，作為擬訂壓力管理計畫之參考依據。</string>
     <string name="btn_yes">是</string>
     <string name="btn_no">否</string>
     <string name="q1">1. 您最近是否經常感到緊張，覺得工作總是做不完？</string>

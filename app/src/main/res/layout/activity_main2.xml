@@ -1216,20 +1216,6 @@
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="50dp"
-                android:background="#F5F7EC"
-                android:includeFontPadding="false"
-                android:padding="18dp"
-                android:text="@string/count"
-                android:textAlignment="viewStart"
-                android:textSize="17sp"
-                android:textStyle="normal"
-                tools:lineSpacingMultiplier="1.5" />
 
         </LinearLayout>
     </ScrollView>

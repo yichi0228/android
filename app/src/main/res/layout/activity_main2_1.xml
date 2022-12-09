@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity4"
+    tools:ignore="MissingDefaultResource">
 
     <TextView
         android:id="@+id/tv_title"
@@ -12,13 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="20sp"
-        android:text="@string/title_result"
+        android:text="@string/tv_food"
         android:textAlignment="center"
         android:textColor="#829143"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/tv_result"
@@ -34,15 +36,19 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
     <TextView
-        android:id="@+id/tv_resultCaption"
-        android:layout_width="367sp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
-        android:background="#F2F2F2"
-        android:padding="10sp"
-        android:text="@string/caption_result"
+        android:id="@+id/textView13"
+        android:layout_width="420dp"
+        android:layout_height="397dp"
+        android:layout_marginTop="70dp"
+        android:background="#F5F7EC"
+        android:includeFontPadding="false"
+        android:padding="18dp"
+        android:text="@string/count"
+        android:textAlignment="viewStart"
         android:textSize="17sp"
+        android:textStyle="normal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_result"
+        tools:lineSpacingMultiplier="1.5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
