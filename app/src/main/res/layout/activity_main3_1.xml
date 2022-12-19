@@ -23,8 +23,8 @@
         android:id="@+id/tv_resultGender"
         android:layout_width="97sp"
         android:layout_height="32sp"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="39dp"
         android:text="@string/resultGender"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -32,35 +32,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_result" />
 
     <TextView
-        android:id="@+id/tv_resultAge"
+        android:id="@+id/tv_resultHeight"
         android:layout_width="97sp"
         android:layout_height="32sp"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="15dp"
-        android:text="@string/resultAge"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/resultHeight"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_resultGender" />
 
     <TextView
-        android:id="@+id/tv_resultHeight"
-        android:layout_width="97sp"
-        android:layout_height="32sp"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="15dp"
-        android:text="@string/resultHeight"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_resultAge" />
-
-    <TextView
         android:id="@+id/tv_resultWeight"
         android:layout_width="97sp"
         android:layout_height="32sp"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="21dp"
         android:text="@string/resultWeight"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -72,13 +60,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="115dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="27dp"
         android:text="@string/BMI"
         android:textColor="#FF5722"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_resultWeight" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="212dp"
+        android:text="@string/number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_BMR"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -92,7 +91,9 @@
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="284dp"
-            android:src="@drawable/bmi" />
+            android:contentDescription="@string/todo"
+            android:src="@drawable/bmi"
+            tools:ignore="ImageContrastCheck" />
     </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

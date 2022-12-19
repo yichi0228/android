@@ -100,7 +100,8 @@
                 android:text="@string/ed_age"
                 android:textColor="#757575"
                 android:textSize="14sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+                android:importantForAutofill="no" />
 
             <TextView
                 android:id="@+id/tv_height"
@@ -119,8 +120,9 @@
                 android:layout_marginStart="105sp"
                 android:layout_marginTop="85sp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="number"
-                android:text="                 請 輸 入 身 高 (cm)"
+                android:text="@string/ed_height"
                 android:textColor="#757575"
                 android:textSize="14sp"
                 tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
@@ -142,8 +144,9 @@
                 android:layout_marginStart="105sp"
                 android:layout_marginTop="125sp"
                 android:ems="10"
+                android:importantForAutofill="no"
                 android:inputType="number"
-                android:text="                  請 輸 入 體 重 (kg)"
+                android:text="@string/ed_weight"
                 android:textColor="#757575"
                 android:textSize="14sp"
                 tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />

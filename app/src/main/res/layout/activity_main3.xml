@@ -79,10 +79,11 @@
                     android:layout_marginTop="50dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="               請 輸 入 身 高 (cm)"
+                    android:text="@string/cm"
                     android:textColor="#757575"
                     android:textSize="14sp"
-                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName2"
@@ -92,10 +93,11 @@
                     android:layout_marginTop="90dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="               請 輸 入 體 重 (kg)"
+                    android:text="@string/kg"
                     android:textColor="#757575"
                     android:textSize="14sp"
-                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+                    android:importantForAutofill="no" />
 
                 <Button
                     android:id="@+id/button2"
@@ -104,6 +106,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="150dp"
                     android:background="#829140"
+                    android:onClick="bmi"
                     android:paddingTop="2dp"
                     android:text="@string/submit"
                     app:backgroundTint="@null"
@@ -149,7 +152,8 @@
                     android:id="@+id/imageView5"
                     android:layout_width="match_parent"
                     android:layout_height="284dp"
-                    android:src="@drawable/bmi" />
+                    android:src="@drawable/bmi"
+                    android:contentDescription="@string/todo" />
             </FrameLayout>
         </LinearLayout>
     </ScrollView>
