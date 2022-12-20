@@ -12,7 +12,7 @@ import android.widget.Toast
 class MainActivity4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)  //指定這個Activity所要使用的Xml畫面，透過R類別指定activity_main.xml
+        setContentView(R.layout.activity_main4)  //指定這個Activity所要使用的Xml畫面，透過R類別指定activity_main.xml
 
         val rbtn1_yes = findViewById<RadioButton>(R.id.rbtn1_yes)
         val rbtn1_no = findViewById<RadioButton>(R.id.rbtn1_no)
