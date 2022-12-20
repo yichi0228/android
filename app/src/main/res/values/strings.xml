@@ -60,7 +60,7 @@
         <string name="q12">12. 有人說您最近氣色不太好嗎？</string>
         <string name="btn_submit">送出</string>
         <string name="title_result">壓力指數測量結果</string>
-        <string name="result">回答「是」有</string>
+        <string name="forresult">回答「是」有</string>
         <string name="answer"></string>
         <string name="unit">個</string>
         <string name="caption_result"><b>壓力指數解答</b>\n<u>回答 3 個「是」</u>：您的壓力指數還在能負荷的範圍。\n<u>回答 4~5 個「是」</u>：壓力滿困擾您，雖能勉強應付，但必需認真學習壓力管理了，同時多與良師益友聊一聊。\n<u>回答 6~8 個「是」</u>：您的壓力很大，趕快去看心理衛生專業人員，接受系統性的心理治療。\n<u>回答 9 個以上「是」</u>：您的壓力已很嚴重，應該看精神專科醫師，依醫師處方用藥物治療與心理治療，幫忙您的生活趕快恢復正常軌道。</string>
