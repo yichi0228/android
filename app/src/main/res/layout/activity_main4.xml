@@ -63,6 +63,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup1"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -122,6 +123,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup2"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -180,7 +182,8 @@
                     tools:background="@drawable/shadow"
                     tools:ignore="TextContrastCheck" />
 
-                <RadioGroup
+                <RadioGroup                    
+                    android:id="@+id/radioGroup3"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -240,6 +243,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup4"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -298,7 +302,8 @@
                     tools:background="@drawable/shadow"
                     tools:ignore="TextContrastCheck" />
 
-                <RadioGroup
+                <RadioGroup                    
+                    android:id="@+id/radioGroup5"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -358,6 +363,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup6"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -416,7 +422,8 @@
                     tools:background="@drawable/shadow"
                     tools:ignore="TextContrastCheck" />
 
-                <RadioGroup
+                <RadioGroup                    
+                    android:id="@+id/radioGroup7"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -475,7 +482,8 @@
                     tools:background="@drawable/shadow2"
                     tools:ignore="TextContrastCheck" />
 
-                <RadioGroup
+                <RadioGroup                    
+                    android:id="@+id/radioGroup8"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -534,7 +542,8 @@
                     tools:background="@drawable/shadow"
                     tools:ignore="TextContrastCheck" />
 
-                <RadioGroup
+                <RadioGroup                    
+                    android:id="@+id/radioGroup9"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -594,6 +603,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup10"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -653,6 +663,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup11"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
@@ -712,6 +723,7 @@
                     tools:ignore="TextContrastCheck" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup12"
                     android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="50sp"
